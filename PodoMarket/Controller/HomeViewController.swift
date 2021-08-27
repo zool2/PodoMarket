@@ -34,7 +34,6 @@ class HomeViewController: UIViewController,UIScrollViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Commit Test")
     }
     
     override func viewWillAppear(_ animated: Bool) {
