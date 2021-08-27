@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C6F67DDEA8F53CB6A30ECAF /* Pods_PodoMarket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601602E08B4147A3FEA65CEA /* Pods_PodoMarket.framework */; };
+		3215D13D230E2A64009B9532 /* WritingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215D13C230E2A64009B9532 /* WritingViewController.swift */; };
+		3215D141230E4A84009B9532 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3215D140230E4A84009B9532 /* PostViewController.swift */; };
+		321A087723028E8D0063C4B2 /* FindTownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321A087623028E8D0063C4B2 /* FindTownViewController.swift */; };
+		32230BCB23261BC4000E493C /* PostingUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32230BCA23261BC4000E493C /* PostingUserProfileViewController.swift */; };
+		322E904F23308AC700D43F23 /* MyWishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322E904E23308AC700D43F23 /* MyWishListViewController.swift */; };
+		32343F3C2339C65200567ECA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32343F3B2339C65200567ECA /* SplashViewController.swift */; };
+		32343F3E2339C9C600567ECA /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32343F3D2339C9C600567ECA /* RemoteConfigDefaults.plist */; };
+		32344E89230A79D500F9A751 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32344E88230A79D500F9A751 /* WebViewController.swift */; };
+		32344EAB230A9DF000F9A751 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32344EAA230A9DF000F9A751 /* GoogleService-Info.plist */; };
+		3245C07A2320C54D00A89A24 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3245C0792320C54D00A89A24 /* CommentTableViewCell.swift */; };
+		324D7CC92331F09E00D00F6C /* CategorySelectedNSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D7CC82331F09E00D00F6C /* CategorySelectedNSearchViewController.swift */; };
+		324D7CCB2332179600D00F6C /* MyPodoMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324D7CCA2332179600D00F6C /* MyPodoMenuNavigationController.swift */; };
+		326FFB53231E3E7C0026E76A /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFB52231E3E7C0026E76A /* CommentViewController.swift */; };
+		326FFB59231E407F0026E76A /* CategoryTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 326FFB58231E407F0026E76A /* CategoryTabViewController.swift */; };
+		32872AD522F438CB00DE8416 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32872AD422F438CB00DE8416 /* AppDelegate.swift */; };
+		32872AD722F438CB00DE8416 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32872AD622F438CB00DE8416 /* StartViewController.swift */; };
+		32872ADA22F438CB00DE8416 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32872AD822F438CB00DE8416 /* Main.storyboard */; };
+		32872ADC22F438D600DE8416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32872ADB22F438D600DE8416 /* Assets.xcassets */; };
+		32872ADF22F438D600DE8416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32872ADD22F438D600DE8416 /* LaunchScreen.storyboard */; };
+		32D4D1C82318EEE4005E94A5 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4D1C72318EEE4005E94A5 /* HomeTableViewCell.swift */; };
+		53D558FE234DC74D00CC4D07 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D558FD234DC74D00CC4D07 /* Product.swift */; };
+		A1E86315236C152000F53DDF /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E86314236C152000F53DDF /* Comment.swift */; };
+		A407BFF2230AF73C005B3FE1 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407BFF1230AF73C005B3FE1 /* LogInViewController.swift */; };
+		A407BFF4230AF775005B3FE1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407BFF3230AF775005B3FE1 /* SignUpViewController.swift */; };
+		A407BFF6230AFC5A005B3FE1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407BFF5230AFC5A005B3FE1 /* HomeViewController.swift */; };
+		A407BFFC230B219C005B3FE1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A407BFFB230B219C005B3FE1 /* Constants.swift */; };
+		A41EA3D423326C4D0006DE11 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41EA3D323326C4D0006DE11 /* CollectionViewCell.swift */; };
+		A4488710231D52A800B5F65A /* WriteTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448870F231D52A800B5F65A /* WriteTabViewController.swift */; };
+		A4C9B7CF230C3E7D00DFAA43 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9B7CE230C3E7D00DFAA43 /* UserProfileViewController.swift */; };
+		A4C9B7D1230C3E8B00DFAA43 /* MyPodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9B7D0230C3E8B00DFAA43 /* MyPodoViewController.swift */; };
+		CB33983E24B42E49004250AA /* MySalesCompletedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33983D24B42E49004250AA /* MySalesCompletedViewController.swift */; };
+		CB3F70EF24F627CC00C02512 /* UIView+layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3F70EE24F627CB00C02512 /* UIView+layout.swift */; };
+		CBA7F014260C81B5008DCB39 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7F013260C81B5008DCB39 /* EditProfileViewController.swift */; };
+		CBA7F01A261305C0008DCB39 /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7F019261305C0008DCB39 /* CoverView.swift */; };
+		CBA7F01C261E0A83008DCB39 /* WritingModifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA7F01B261E0A83008DCB39 /* WritingModifyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3215D13C230E2A64009B9532 /* WritingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingViewController.swift; sourceTree = "<group>"; };
+		3215D140230E4A84009B9532 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		321A087623028E8D0063C4B2 /* FindTownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTownViewController.swift; sourceTree = "<group>"; };
+		32230BCA23261BC4000E493C /* PostingUserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostingUserProfileViewController.swift; sourceTree = "<group>"; };
+		322E904E23308AC700D43F23 /* MyWishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWishListViewController.swift; sourceTree = "<group>"; };
+		32343F3B2339C65200567ECA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		32343F3D2339C9C600567ECA /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		32344E88230A79D500F9A751 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		32344EAA230A9DF000F9A751 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3245C0792320C54D00A89A24 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		324D7CC82331F09E00D00F6C /* CategorySelectedNSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectedNSearchViewController.swift; sourceTree = "<group>"; };
+		324D7CCA2332179600D00F6C /* MyPodoMenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPodoMenuNavigationController.swift; sourceTree = "<group>"; };
+		325C0114233360D000FDED97 /* PodoMarket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PodoMarket.entitlements; sourceTree = "<group>"; };
+		326FFB52231E3E7C0026E76A /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		326FFB58231E407F0026E76A /* CategoryTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTabViewController.swift; sourceTree = "<group>"; };
+		32872AD122F438CB00DE8416 /* PodoMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodoMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32872AD422F438CB00DE8416 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32872AD622F438CB00DE8416 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		32872AD922F438CB00DE8416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32872ADB22F438D600DE8416 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32872ADE22F438D600DE8416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32872AE022F438D600DE8416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D4D1C72318EEE4005E94A5 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		53D558FD234DC74D00CC4D07 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		547A484A77D77D0225B56076 /* Pods-PodoMarket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodoMarket.debug.xcconfig"; path = "Target Support Files/Pods-PodoMarket/Pods-PodoMarket.debug.xcconfig"; sourceTree = "<group>"; };
+		601602E08B4147A3FEA65CEA /* Pods_PodoMarket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodoMarket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E86314236C152000F53DDF /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		A407BFF1230AF73C005B3FE1 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LogInViewController.swift; path = ../PostViews/LogInViewController.swift; sourceTree = "<group>"; };
+		A407BFF3230AF775005B3FE1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A407BFF5230AFC5A005B3FE1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A407BFFB230B219C005B3FE1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A41EA3D323326C4D0006DE11 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		A448870F231D52A800B5F65A /* WriteTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteTabViewController.swift; sourceTree = "<group>"; };
+		A4C9B7CE230C3E7D00DFAA43 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		A4C9B7D0230C3E8B00DFAA43 /* MyPodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPodoViewController.swift; sourceTree = "<group>"; };
+		C5731C844C0395E7688427AA /* Pods-PodoMarket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodoMarket.release.xcconfig"; path = "Target Support Files/Pods-PodoMarket/Pods-PodoMarket.release.xcconfig"; sourceTree = "<group>"; };
+		CB33983D24B42E49004250AA /* MySalesCompletedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySalesCompletedViewController.swift; sourceTree = "<group>"; };
+		CB3F70EE24F627CB00C02512 /* UIView+layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+layout.swift"; sourceTree = "<group>"; };
+		CBA7F013260C81B5008DCB39 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		CBA7F019261305C0008DCB39 /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
+		CBA7F01B261E0A83008DCB39 /* WritingModifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingModifyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32872ACE22F438CB00DE8416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6F67DDEA8F53CB6A30ECAF /* Pods_PodoMarket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3245C07B2320EFEC00A89A24 /* StartViews */ = {
+			isa = PBXGroup;
+			children = (
+				32343F3B2339C65200567ECA /* SplashViewController.swift */,
+				32872AD622F438CB00DE8416 /* StartViewController.swift */,
+				321A087623028E8D0063C4B2 /* FindTownViewController.swift */,
+				32344E88230A79D500F9A751 /* WebViewController.swift */,
+				A407BFF1230AF73C005B3FE1 /* LogInViewController.swift */,
+				A407BFF3230AF775005B3FE1 /* SignUpViewController.swift */,
+			);
+			path = StartViews;
+			sourceTree = "<group>";
+		};
+		32872AC822F438CB00DE8416 = {
+			isa = PBXGroup;
+			children = (
+				32872AD322F438CB00DE8416 /* PodoMarket */,
+				32872AD222F438CB00DE8416 /* Products */,
+				547BA88BFC1DBF897FC651F2 /* Pods */,
+				D4B424C5EE8723CDFBDF67C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32872AD222F438CB00DE8416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32872AD122F438CB00DE8416 /* PodoMarket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32872AD322F438CB00DE8416 /* PodoMarket */ = {
+			isa = PBXGroup;
+			children = (
+				32872AD422F438CB00DE8416 /* AppDelegate.swift */,
+				325C0114233360D000FDED97 /* PodoMarket.entitlements */,
+				32872AD822F438CB00DE8416 /* Main.storyboard */,
+				A407BFFA230B2178005B3FE1 /* Helpers */,
+				A11707A3235DD13000497E9C /* View */,
+				53D558FC234DC73A00CC4D07 /* Model */,
+				A407BFF7230AFC7D005B3FE1 /* Controller */,
+				32872ADB22F438D600DE8416 /* Assets.xcassets */,
+				32872ADD22F438D600DE8416 /* LaunchScreen.storyboard */,
+				32872AE022F438D600DE8416 /* Info.plist */,
+				32343F3D2339C9C600567ECA /* RemoteConfigDefaults.plist */,
+				32344EAA230A9DF000F9A751 /* GoogleService-Info.plist */,
+			);
+			path = PodoMarket;
+			sourceTree = "<group>";
+		};
+		53D558FC234DC73A00CC4D07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53D558FD234DC74D00CC4D07 /* Product.swift */,
+				A1E86314236C152000F53DDF /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		547BA88BFC1DBF897FC651F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				547A484A77D77D0225B56076 /* Pods-PodoMarket.debug.xcconfig */,
+				C5731C844C0395E7688427AA /* Pods-PodoMarket.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A11707A3235DD13000497E9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3245C0792320C54D00A89A24 /* CommentTableViewCell.swift */,
+				32D4D1C72318EEE4005E94A5 /* HomeTableViewCell.swift */,
+				A41EA3D323326C4D0006DE11 /* CollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A407BFF7230AFC7D005B3FE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3245C07B2320EFEC00A89A24 /* StartViews */,
+				A407BFF5230AFC5A005B3FE1 /* HomeViewController.swift */,
+				3215D140230E4A84009B9532 /* PostViewController.swift */,
+				32230BCA23261BC4000E493C /* PostingUserProfileViewController.swift */,
+				326FFB52231E3E7C0026E76A /* CommentViewController.swift */,
+				326FFB58231E407F0026E76A /* CategoryTabViewController.swift */,
+				324D7CC82331F09E00D00F6C /* CategorySelectedNSearchViewController.swift */,
+				A448870F231D52A800B5F65A /* WriteTabViewController.swift */,
+				3215D13C230E2A64009B9532 /* WritingViewController.swift */,
+				CBA7F01B261E0A83008DCB39 /* WritingModifyViewController.swift */,
+				324D7CCA2332179600D00F6C /* MyPodoMenuNavigationController.swift */,
+				A4C9B7D0230C3E8B00DFAA43 /* MyPodoViewController.swift */,
+				A4C9B7CE230C3E7D00DFAA43 /* UserProfileViewController.swift */,
+				CBA7F013260C81B5008DCB39 /* EditProfileViewController.swift */,
+				322E904E23308AC700D43F23 /* MyWishListViewController.swift */,
+				CB33983D24B42E49004250AA /* MySalesCompletedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A407BFFA230B2178005B3FE1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A407BFFB230B219C005B3FE1 /* Constants.swift */,
+				CB3F70EE24F627CB00C02512 /* UIView+layout.swift */,
+				CBA7F019261305C0008DCB39 /* CoverView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D4B424C5EE8723CDFBDF67C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				601602E08B4147A3FEA65CEA /* Pods_PodoMarket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32872AD022F438CB00DE8416 /* PodoMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32872AE322F438D600DE8416 /* Build configuration list for PBXNativeTarget "PodoMarket" */;
+			buildPhases = (
+				544F8B9486B0D541EF4DED04 /* [CP] Check Pods Manifest.lock */,
+				32872ACD22F438CB00DE8416 /* Sources */,
+				32872ACE22F438CB00DE8416 /* Frameworks */,
+				32872ACF22F438CB00DE8416 /* Resources */,
+				56790917792E705FC0754224 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodoMarket;
+			productName = PodoMarket;
+			productReference = 32872AD122F438CB00DE8416 /* PodoMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32872AC922F438CB00DE8416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zool2;
+				TargetAttributes = {
+					32872AD022F438CB00DE8416 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 32872ACC22F438CB00DE8416 /* Build configuration list for PBXProject "PodoMarket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32872AC822F438CB00DE8416;
+			productRefGroup = 32872AD222F438CB00DE8416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32872AD022F438CB00DE8416 /* PodoMarket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32872ACF22F438CB00DE8416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32343F3E2339C9C600567ECA /* RemoteConfigDefaults.plist in Resources */,
+				32872ADF22F438D600DE8416 /* LaunchScreen.storyboard in Resources */,
+				32344EAB230A9DF000F9A751 /* GoogleService-Info.plist in Resources */,
+				32872ADC22F438D600DE8416 /* Assets.xcassets in Resources */,
+				32872ADA22F438CB00DE8416 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		544F8B9486B0D541EF4DED04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodoMarket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56790917792E705FC0754224 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PodoMarket/Pods-PodoMarket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PodoMarket/Pods-PodoMarket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PodoMarket/Pods-PodoMarket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32872ACD22F438CB00DE8416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3F70EF24F627CC00C02512 /* UIView+layout.swift in Sources */,
+				32230BCB23261BC4000E493C /* PostingUserProfileViewController.swift in Sources */,
+				32872AD722F438CB00DE8416 /* StartViewController.swift in Sources */,
+				A4488710231D52A800B5F65A /* WriteTabViewController.swift in Sources */,
+				324D7CCB2332179600D00F6C /* MyPodoMenuNavigationController.swift in Sources */,
+				A407BFF4230AF775005B3FE1 /* SignUpViewController.swift in Sources */,
+				A407BFFC230B219C005B3FE1 /* Constants.swift in Sources */,
+				322E904F23308AC700D43F23 /* MyWishListViewController.swift in Sources */,
+				321A087723028E8D0063C4B2 /* FindTownViewController.swift in Sources */,
+				32D4D1C82318EEE4005E94A5 /* HomeTableViewCell.swift in Sources */,
+				CB33983E24B42E49004250AA /* MySalesCompletedViewController.swift in Sources */,
+				326FFB53231E3E7C0026E76A /* CommentViewController.swift in Sources */,
+				A4C9B7D1230C3E8B00DFAA43 /* MyPodoViewController.swift in Sources */,
+				A41EA3D423326C4D0006DE11 /* CollectionViewCell.swift in Sources */,
+				324D7CC92331F09E00D00F6C /* CategorySelectedNSearchViewController.swift in Sources */,
+				CBA7F01C261E0A83008DCB39 /* WritingModifyViewController.swift in Sources */,
+				32343F3C2339C65200567ECA /* SplashViewController.swift in Sources */,
+				326FFB59231E407F0026E76A /* CategoryTabViewController.swift in Sources */,
+				A407BFF6230AFC5A005B3FE1 /* HomeViewController.swift in Sources */,
+				A407BFF2230AF73C005B3FE1 /* LogInViewController.swift in Sources */,
+				32872AD522F438CB00DE8416 /* AppDelegate.swift in Sources */,
+				CBA7F014260C81B5008DCB39 /* EditProfileViewController.swift in Sources */,
+				3245C07A2320C54D00A89A24 /* CommentTableViewCell.swift in Sources */,
+				3215D13D230E2A64009B9532 /* WritingViewController.swift in Sources */,
+				A4C9B7CF230C3E7D00DFAA43 /* UserProfileViewController.swift in Sources */,
+				3215D141230E4A84009B9532 /* PostViewController.swift in Sources */,
+				CBA7F01A261305C0008DCB39 /* CoverView.swift in Sources */,
+				32344E89230A79D500F9A751 /* WebViewController.swift in Sources */,
+				53D558FE234DC74D00CC4D07 /* Product.swift in Sources */,
+				A1E86315236C152000F53DDF /* Comment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32872AD822F438CB00DE8416 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32872AD922F438CB00DE8416 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32872ADD22F438D600DE8416 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32872ADE22F438D600DE8416 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32872AE122F438D600DE8416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		32872AE222F438D600DE8416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32872AE422F438D600DE8416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547A484A77D77D0225B56076 /* Pods-PodoMarket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PodoMarket/PodoMarket.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP8NDHG7MR;
+				INFOPLIST_FILE = PodoMarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zool2.PodoMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32872AE522F438D600DE8416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5731C844C0395E7688427AA /* Pods-PodoMarket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PodoMarket/PodoMarket.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RP8NDHG7MR;
+				INFOPLIST_FILE = PodoMarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zool2.PodoMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32872ACC22F438CB00DE8416 /* Build configuration list for PBXProject "PodoMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32872AE122F438D600DE8416 /* Debug */,
+				32872AE222F438D600DE8416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32872AE322F438D600DE8416 /* Build configuration list for PBXNativeTarget "PodoMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32872AE422F438D600DE8416 /* Debug */,
+				32872AE522F438D600DE8416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32872AC922F438CB00DE8416 /* Project object */;
+}

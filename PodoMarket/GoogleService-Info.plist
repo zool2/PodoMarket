@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>736301114354-u75vqqapekfaq0e3ck1tcre4satcfopk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.736301114354-u75vqqapekfaq0e3ck1tcre4satcfopk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBxT3tfg3Idt3uU6rZxOOJ7oPOy8S3p3Lo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>736301114354</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.zool2.PodoMarket</string>
+	<key>PROJECT_ID</key>
+	<string>podomarket-38cd6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>podomarket-38cd6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:736301114354:ios:cbad9be3f2d754f4</string>
+	<key>DATABASE_URL</key>
+	<string>https://podomarket-38cd6.firebaseio.com</string>
+</dict>
+</plist>
