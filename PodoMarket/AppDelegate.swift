@@ -16,7 +16,6 @@ import UIKit
 import Firebase
 import FirebaseFirestore
 
-// Commit Test
 struct UserInfo {
     var loginID: String = ""
     var nickName: String = ""
