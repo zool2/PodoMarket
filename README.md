@@ -13,3 +13,25 @@
 * iOS swift 
 * Firebase 
 * 카카오 우편번호 API
+
+### 3. 프론트엔드
+
+![front_end](https://user-images.githubusercontent.com/52398346/131097792-7cef0ba2-ab4f-47fd-aef3-2fb280afd4cc.png)
+
+### 4. 백엔드
+
+![back_end](https://user-images.githubusercontent.com/52398346/131097781-eba3a0a1-a965-49db-aa7b-fbb797c75739.png)
+
+### 5. 핵심기능
+
+동네 검색
+상품 업로드 
+
+### 6. 핵심 트러블 슈팅
+
+채팅 기능 -> 댓글 기능 
+동네 범위 설정 기능 -> 카카오 우편번호 API를 사용한 단일 동네 설정
+
+### 7. 그 외 트러블 슈팅
+
+### 8. 느낀점
