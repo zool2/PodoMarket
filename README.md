@@ -8,10 +8,10 @@
 * 6개월
 * 첫 프로젝트이자 개인 프로젝트
 
-### 2. 사용 기술
+### 2. 사용 기술 스택
 
-* iOS swift 
-* Firebase ( Auth / 
+* Swift 
+* Firebase ( Remote Config / Authentication / FireStore / Storage )
 * 카카오 우편번호 API
 
 ### 3. 프론트엔드
